@@ -48,9 +48,14 @@ if(!(a==2) || b==4){
     console.log("all are false");
 } */
 
+
+
+
+
+
 //OR and AND operator together
 
-let a=2;
+/* let a=2;
 let b=3;
 let c=4;
 
@@ -62,3 +67,15 @@ if(a==2 && (b==2 || c==4)){
     
     console.log("all are false");
 }
+ */
+
+
+
+
+
+//nullish coalescing operator (??)
+
+const sometext = "Supun";
+
+const a= sometext ?? "Hi how are you";
+console.log(a);
