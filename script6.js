@@ -17,7 +17,7 @@ if(a==2 && b==3){
 
 //|| (OR) operator
 
-let a=2;
+/* let a=2;
 let b=3;
 let c=4;
 
@@ -28,6 +28,22 @@ if(a==4 || b==3){
 }else{
     
     console.log("all are false");
+} */
+
+
+    
+
+// ! (NOT) operator
+
+let a=2;
+let b=3;
+let c=4;
+
+
+
+if(!(a==2) || b==4){
+    console.log("condition 1 is true");
+}else{
+    
+    console.log("all are false");
 }
-
-
