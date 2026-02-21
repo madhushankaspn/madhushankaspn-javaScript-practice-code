@@ -1,6 +1,16 @@
 //Comparison Operators
-// == equal to
 
+
+// == equal to
+/* 
 let a = 5;
 let b = 5;
-console.log(a == b); // true
+console.log(a == b); // true */
+
+
+
+// === strict equal to  
+let a = 5;
+let b = "5";
+console.log(a === b);
+
