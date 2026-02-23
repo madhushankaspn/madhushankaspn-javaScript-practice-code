@@ -47,7 +47,7 @@ a = Boolean(a);
     console.log(a,typeof a); */
 
 
-let b="5" -true;
+let b="5" - "2";
 console.log(b);
 
 
