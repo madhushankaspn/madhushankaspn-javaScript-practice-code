@@ -1,4 +1,4 @@
-const btn = document.getElementById("btn");
+/* const btn = document.getElementById("btn");
 
 btn.addEventListener("click",function(){
     let txt1= document.getElementById("txt1").value;
@@ -8,4 +8,27 @@ btn.addEventListener("click",function(){
     
     document.getElementById("total").innerText=total;
 
-})
+}) */
+
+
+
+
+ // string to numbers
+ 
+ let x = "1ds0";
+ console.log(x,typeof x);
+
+ x= Number(x);
+ console.log(x,typeof x);   
+
+
+ // numbers to string
+ 
+ let y= 100;
+ console.log(y,typeof y);
+
+ y = String(y);
+ console.log(y,typeof y);
+
+
+ 
