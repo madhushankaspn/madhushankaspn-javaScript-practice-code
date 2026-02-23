@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+
+        }
+        body{
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            height:100vh;
+            font-family: poppins;
+            background-color: rgb(26, 115, 193);
+            color: white;
+            padding: 1cm;
+
+        }
+
+        input,button{
+            padding:1cm;
+            margin: 1cm 0;
+            font-size: 1rem;
+
+        } 
+        div,#total{font-size: 2rem;}
+
+        
+        </style>
+    <div>
+        <input type="text" id="txt1">
+        <input type="text" id="txt2">
+        <button id="btn">Calculate Total</button>
+        <div>
+            Sum is <span id="total"></span>
+        </div>
+    </div>
+    <script src = "script10.js"></script>
+</body>
+</html>
