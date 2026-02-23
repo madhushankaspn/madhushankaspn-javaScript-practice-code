@@ -15,7 +15,7 @@ btn.addEventListener("click",function(){
 
  // string to numbers
  
- let x = "1ds0";
+/*  let x = "1ds0";
  console.log(x,typeof x);
 
  x= Number(x);
@@ -30,5 +30,25 @@ btn.addEventListener("click",function(){
  y = String(y);
  console.log(y,typeof y);
 
+ // boolean to string
+ let z= true;
+ console.log(z,typeof z);
 
- 
+ z = String(z);
+ console.log(z,typeof z); */
+
+
+ //Number to boolean
+  /*   let a= 1;
+    console.log(a,typeof a);
+
+    
+a = Boolean(a);
+    console.log(a,typeof a); */
+
+
+let b="5" -true;
+console.log(b);
+
+
+
