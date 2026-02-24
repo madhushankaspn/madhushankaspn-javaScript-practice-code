@@ -24,7 +24,7 @@ if(total>10){
 
 
     
-function firstFunction(a,b){
+/* function firstFunction(a,b){
     return a+b;
     console.log("This will not be executed");
 
@@ -32,3 +32,19 @@ function firstFunction(a,b){
 
 let total = firstFunction(10,5);
 console.log(total);
+ */
+
+
+
+
+let name1 = "John";
+
+function firstFunction(){
+    let name1 = "Supun";
+    console.log("Hello " + name1);
+
+}
+
+firstFunction();
+console.log(name1);
+
