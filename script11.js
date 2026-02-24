@@ -9,7 +9,7 @@ firstFunction(5,9); */
 
 
 
-
+/* 
 function firstFunction(a,b){
     return a+b;
 
@@ -20,4 +20,15 @@ if(total>10){
     alert("Total greater than 10");
 }else{
     alert("Total less than or equal to 10");
+} */
+
+
+    
+function firstFunction(a,b){
+    return a+b;
+    console.log("This will not be executed");
+
 }
+
+let total = firstFunction(10,5);
+console.log(total);
