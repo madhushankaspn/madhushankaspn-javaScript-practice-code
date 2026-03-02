@@ -33,9 +33,43 @@ while(i<20){
 
 //do while loop
 
-let i=0;
+/* let i=0;
 do{
     console.log(i);
     i++;
 
-}while(i<10);
+}while(i<10); */
+
+
+
+
+
+
+//forEach loop
+   //======display all the elements of the array======
+
+/*  const arr=[10,32,66,22,90];
+
+ arr.forEach((Number)=>{
+    console.log(Number);
+ }) */
+
+
+//======sum of all the elements of the array======
+/* const arr=[10,32,66,22,100];
+
+let sum =0;
+
+ arr.forEach((Number)=>{
+    sum+=Number;
+
+ })
+ console.log("Total = " + sum); */
+
+
+
+
+
+
+ //for in loop
+ 
