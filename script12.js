@@ -72,4 +72,12 @@ let sum =0;
 
 
  //for in loop
- 
+
+ const employee = {
+    name: "supun",
+    age: 24,
+    position: "developer"
+ }
+ for( const key in employee){
+    console.log(key + " : " + employee[key]);
+ }
