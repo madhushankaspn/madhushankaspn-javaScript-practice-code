@@ -73,11 +73,25 @@ let sum =0;
 
  //for in loop
 
- const employee = {
+/*  const employee = {
     name: "supun",
     age: 24,
     position: "developer"
  }
  for( const key in employee){
     console.log(key + " : " + employee[key]);
- }
+ } */
+
+
+
+
+
+
+
+//for of loop
+
+const arr=[10,32,66,22,100];
+
+for(const num of arr){
+    console.log(num);
+}
