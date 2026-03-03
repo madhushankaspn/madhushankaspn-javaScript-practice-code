@@ -10,6 +10,9 @@ btn.onclick = function(){
     //console.log("second click");
 } 
 
+btn.onclick = function(){
+    //console.log(e);
+
 //only the second click will be executed because the first one is overwritten by the second one.
 
 
