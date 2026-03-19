@@ -1,4 +1,4 @@
-//event handlers
+/* //event handlers
 
 const btn = document.getElementById("btn");
 
@@ -15,13 +15,13 @@ btn.onclick = function(){
 
 //only the second click will be executed because the first one is overwritten by the second one.
 
+ */
 
 
 
 
 
-
-//event listeners
+/* //event listeners
 
 btn.addEventListener("click",function(){
     //console.log("first click");
@@ -29,13 +29,13 @@ btn.addEventListener("click",function(){
 })
 
 btn.addEventListener("click",function(){
-    //console.log("second click");
+    console.log("second click");
 })
 
 btn.addEventListener("click",function(){
-    //console.log("third click");
+    console.log("third click");
 })
-
+ */
 
 
 window.addEventListener("offline",function(){
