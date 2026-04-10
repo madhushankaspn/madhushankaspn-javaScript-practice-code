@@ -49,3 +49,8 @@ const galleryImages = document.querySelectorAll(".galleryimages img");
 galleryImages.forEach((e) => {
     e.style.maxWidth = "50%";
 });
+
+const allitems = document.querySelectorAll(".items li");
+for(let i = 0; i < allitems.length; i++) {
+    allitems[i].style.fontFamily = "Tahoma";
+}
