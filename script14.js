@@ -37,3 +37,6 @@ for(let i=0; i<img.length;i++){
 
 const bodycontent = document.querySelector("body");
 bodycontent.style.backgroundColor = "#88ffc2";
+
+const items = document.querySelector(".items");
+items.innerHTML += "<li>New Item 1</li> <li>New Item 2</li>";
