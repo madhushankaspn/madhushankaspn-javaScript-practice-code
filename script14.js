@@ -35,3 +35,5 @@ for(let i=0; i<img.length;i++){
 
 //====querySelector()====
 
+const bodycontent = document.querySelector("body");
+bodycontent.style.backgroundColor = "#88ffc2";
