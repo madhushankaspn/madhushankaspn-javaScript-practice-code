@@ -40,3 +40,16 @@ bodycontent.style.backgroundColor = "#88ffc2";
 
 const items = document.querySelector(".items");
 items.innerHTML += "<li>New Item 1</li> <li>New Item 2</li>";
+
+
+const galleryimages = document.querySelector(".galleryimages");
+galleryimages.style.display = "flex";
+galleryimages.style.flexWrap = "wrap";
+
+
+//====querySelectorAll()====
+
+const galleryimages = document.querySelectorAll(".galleryimages");
+galleryimages.forEach((e)=> {
+    e.style.maxWidth = "50%";
+})
